@@ -22,3 +22,16 @@ Install all the dependencies listed in [gem5-dependencies](https://www.gem5.org/
    ```shell
    source build.sh
    ```
+
+## How to cite
+
+If you use this code, please cite:
+
+Wang, R., Wang, Z., Lin, T., Raby, J. M., Stan, M. R., & Guo, X. (2025). Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs. arXiv preprint arXiv:2503.07297.
+
+      @article{wang2025cool,
+         title={Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs},
+         author={Wang, Runxi and Wang, Ziheng and Lin, Ting and Raby, Jacob M and Stan, Mircea R and Guo, Xinfei},
+         journal={arXiv preprint arXiv:2503.07297},
+         year={2025}
+      }
