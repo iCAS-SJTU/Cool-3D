@@ -1,0 +1,72 @@
+#File Format:
+
+#<Layer Number>
+#<Lateral heat flow Y/N?>
+#<Power Dissipation Y/N?>
+#<Specific heat capacity in J/(m^3K)>
+#<Resistivity in (m-K)/W>
+#<Thickness in m>
+#<floorplan file>
+
+# Layer 0: Silicon Interposer
+0
+Y
+N
+silicon
+100e-6
+floorplans/tim.flp
+
+# Layer "cores"
+1
+Y
+Y
+1750000.0
+0.01
+5e-05
+floorplans/cores.flp
+
+# Layer "tim"
+2
+Y
+N
+4000000.0
+0.25
+2e-05
+floorplans/tim.flp
+
+# Layer "mem_bank_1"
+3
+Y
+Y
+1750000.0
+0.01
+5e-05
+floorplans/mem_bank_1.flp
+
+# Layer "tim"
+4
+Y
+N
+4000000.0
+0.25
+2e-05
+floorplans/tim.flp
+
+# Layer "mem_bank_1"
+5
+Y
+Y
+1750000.0
+0.01
+5e-05
+floorplans/mem_bank_2.flp
+
+# Layer "tim"
+6
+Y
+N
+4000000.0
+0.25
+2e-05
+floorplans/tim.flp
+

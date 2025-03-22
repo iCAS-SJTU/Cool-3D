@@ -1,0 +1,22 @@
+arch:
+  arch_config_file: "$COOL3D_ROOT/examples/example_0/se.py"
+  3Dmem_config_file: "$COOL3D_ROOT/examples/example_0/3DDRAM_customized.cfg"
+  num_cores: 4
+  cpu_clock: 2GHz
+  l2_size: 2MB
+  mem_size: 8GB
+  num_mem_banks: 32
+
+thermal: 
+  hotspot_inputs_dir: "$COOL3D_ROOT/examples/example_0/hotspot"
+  num_layers_total: 7
+  is_core: '100'
+  banks_per_layer: 16
+  microfluidic_cooling: 0
+  sim_resolution_row: 64
+  sim_resolution_col: 64
+
+workload: 
+  bin: "$SPLASH2_ROOT/codes/kernels/fft/FFT"
+  opt: -p4;-m12;-l6;-n65533
+  input: ''

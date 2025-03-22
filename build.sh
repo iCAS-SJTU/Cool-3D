@@ -29,7 +29,7 @@ cd $COOL3D_ROOT
 cd $HOTSPOT_ROOT
 if [ ! -f hotspot ]; then
     echo "[COOL-3D] Building HotSpot"
-    make
+    make SUPERLU=1
 else 
     echo "[COOL-3D] HotSpot already built"
 fi
