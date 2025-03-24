@@ -1,15 +1,11 @@
 ---
 name: Bug Report
 about: Use this template for reporting issues.
-title: "[BUG] [Phase of DSE when error occurs] Short descriptive title"
+title: "[Phase of DSE when error occurs(Perf/Power/Thermal)] Short descriptive title"
 labels: bug, needs triage
 ---
 
 # Bug Report
-
-## Title
-`[BUG]` [Phase of DSE when error occurs] Short descriptive title
-(e.g., "[arch/power/thermal] ERROR MESSAGE")
 
 ## Affected Simulation Component
 - [ ] gem5
