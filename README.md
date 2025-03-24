@@ -60,6 +60,9 @@ python3 scripts/run_design.py --input-file=examples/example_0/inputs-hello.yaml
 
 Coming Soon:)
 
+## Reporting Bugs
+Please use our dedicated template to file bug reports. This helps us diagnose issues faster.
+
 ## How to cite
 
 If you use this code, please cite:
