@@ -67,7 +67,7 @@ Please use our dedicated template to file bug reports. This helps us diagnose is
 
 If you use this code, please cite:
 
-R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, doi: 10.1109/JETCAS.2025.3590065.
+R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, doi: 10.1109/JETCAS.2025.3590065. (https://ieeexplore.ieee.org/document/11083607)
 
       @ARTICLE{11083607,
         author={Wang, Runxi and Wang, Ziheng and Lin, Ting and Raby, Jacob M. and Stan, Mircea R. and Guo, Xinfei},
