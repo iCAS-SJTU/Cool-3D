@@ -67,11 +67,16 @@ Please use our dedicated template to file bug reports. This helps us diagnose is
 
 If you use this code, please cite:
 
-Wang, R., Wang, Z., Lin, T., Raby, J. M., Stan, M. R., & Guo, X. (2025). Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs. arXiv preprint arXiv:2503.07297.
+R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, doi: 10.1109/JETCAS.2025.3590065.
 
-      @article{wang2025cool,
-         title={Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs},
-         author={Wang, Runxi and Wang, Ziheng and Lin, Ting and Raby, Jacob M and Stan, Mircea R and Guo, Xinfei},
-         journal={arXiv preprint arXiv:2503.07297},
-         year={2025}
-      }
+      @ARTICLE{11083607,
+        author={Wang, Runxi and Wang, Ziheng and Lin, Ting and Raby, Jacob M. and Stan, Mircea R. and Guo, Xinfei},
+        journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems}, 
+        title={Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={1-1},
+        keywords={Cooling;Stacking;Space exploration;Microfluidics;Through-silicon vias;Three-dimensional displays;Space cooling;Predictive models;Heat transfer;Computer architecture;3DIC;Design Space Exploration (DSE);Pre-RTL Design;Thermal Simulation;Microfluidic Cooling},
+        doi={10.1109/JETCAS.2025.3590065}}
+
