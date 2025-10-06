@@ -7,22 +7,31 @@
 
 ## What is Cool-3D
 
-Cool-3D is an end-to-end thermal-aware framework built for early-phase design space exploration (DSE) of microfluidic cooling equipped 3DICs. It is built on top of mainstream computer architecture simulators gem5, McPAT, CACTI, and HotSpot. 
+Cool-3D is an end-to-end thermal-aware framework built for early-phase design space exploration (DSE) of microfluidic cooling equipped 3DICs. It is built on top of mainstream computer architecture simulators gem5, McPAT, CACTI, and HotSpot.
 Given architectural, stacking, thermal related information as inputs, this framework will efficiently output thermal traces with visualization results.
 
 ## Quick Start
 
 ### Dependency
 
-1. Install all the dependencies listed in [gem5 dependencies](https://www.gem5.org/documentation/general_docs/building) 
-2. Install SuperLU library for quick HotSpot steady simulation by 
+1. Install all the dependencies listed in [gem5 dependencies](https://www.gem5.org/documentation/general_docs/building)
+2. Install SuperLU library for quick HotSpot steady simulation by
    ```shell
    apt-get install libsuperlu-dev
    ```
 3. Install python packages
+
+   Using pip:
    ```shell
    pip install -r requirements.txt
    ```
+   Or using uv (faster alternative):
+   ```shell
+   uv venv
+   source .venv/bin/activate
+   uv pip install -r requirements.txt
+   ```
+   > if users choose the uv method, they'll need to remember to activate the virtual environment (`.venv/bin/activate`) every time they open a new terminal
 
 ### Tool Building
 
@@ -36,7 +45,7 @@ Given architectural, stacking, thermal related information as inputs, this frame
    cd Cool-3D
    source setenv.sh
    ```
-   Notice that every time you start a new terminal you will need to rerun this command. You can also add the commands in ``setenv.sh`` to your shell configuration file to save this effort. 
+   Notice that every time you start a new terminal you will need to rerun this command. You can also add the commands in ``setenv.sh`` to your shell configuration file to save this effort.
 
 3. Build all the simulators
    ```shell
@@ -45,7 +54,7 @@ Given architectural, stacking, thermal related information as inputs, this frame
 
 ### Run an Example
 
-If you have [Splash2 benchmark](https://github.com/liuyix/splash2_benchmark) downloaded and compiled in your host, you can run 
+If you have [Splash2 benchmark](https://github.com/liuyix/splash2_benchmark) downloaded and compiled in your host, you can run
 ```shell
 python3 scripts/run_design.py --input-file=examples/example_0/inputs.yaml
 ```
@@ -71,8 +80,8 @@ R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to
 
       @ARTICLE{11083607,
         author={Wang, Runxi and Wang, Ziheng and Lin, Ting and Raby, Jacob M. and Stan, Mircea R. and Guo, Xinfei},
-        journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems}, 
-        title={Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs}, 
+        journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems},
+        title={Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs},
         year={2025},
         volume={},
         number={},
