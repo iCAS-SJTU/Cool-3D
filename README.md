@@ -15,11 +15,15 @@ Given architectural, stacking, thermal related information as inputs, this frame
 ### Dependency
 
 1. Install all the dependencies listed in [gem5 dependencies](https://www.gem5.org/documentation/general_docs/building)
-2. Install SuperLU library for quick HotSpot steady simulation by
+2. Install the 32-bit C++ multilib toolchain (required for compiling McPAT in 32-bit mode on 64-bit systems):
+   ```shell
+   apt install g++-multilib
+   ```
+3. Install SuperLU library for quick HotSpot steady simulation by
    ```shell
    apt-get install libsuperlu-dev
    ```
-3. Install python packages
+4. Install python packages
 
    Using pip:
    ```shell
@@ -49,7 +53,11 @@ Given architectural, stacking, thermal related information as inputs, this frame
 
 3. Build all the simulators
    ```shell
-   source build.sh
+   ./build.sh
+   ```
+   By default, the script auto-detects available CPU cores. You can optionally specify the number of cores to use:
+   ```shell
+   ./build.sh <num_cores>
    ```
 
 ### Run an Example
