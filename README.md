@@ -3,7 +3,8 @@
 [What is Cool-3D](#what-is-cool-3d)<br>
 [Quick Start](#quick-start)<br>
 [Tutorials](#tutorials)<br>
-[How to Cite](#how-to-cite)
+[How to Cite](#how-to-cite)<br>
+[Annoucements](#annoucements)
 
 ## What is Cool-3D
 
@@ -84,7 +85,7 @@ Please use our dedicated template to file bug reports. This helps us diagnose is
 
 If you use this code, please cite:
 
-R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, doi: 10.1109/JETCAS.2025.3590065. (https://ieeexplore.ieee.org/document/11083607)
+R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems (**JETCAS**), doi: 10.1109/JETCAS.2025.3590065. (https://ieeexplore.ieee.org/document/11083607)
 
       @ARTICLE{11083607,
         author={Wang, Runxi and Wang, Ziheng and Lin, Ting and Raby, Jacob M. and Stan, Mircea R. and Guo, Xinfei},
@@ -97,5 +98,7 @@ R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to
         keywords={Cooling;Stacking;Space exploration;Microfluidics;Through-silicon vias;Three-dimensional displays;Space cooling;Predictive models;Heat transfer;Computer architecture;3DIC;Design Space Exploration (DSE);Pre-RTL Design;Thermal Simulation;Microfluidic Cooling},
         doi={10.1109/JETCAS.2025.3590065}}
 
-## Annoucement
-
+## Annoucements
+1. **[2025-10]** *Cool-3D* received the **Best Poster Award** recognition at the **IEEE Chiplet Workshop**!
+2. **[2025-09]** *Cool-3D* is invited to present at the inaugural **IEEE Chiplet Workshop** in Wuhan, China.
+3. **[2025-07]** *Cool-3D* has been accepted by IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS). The paper is available at https://ieeexplore.ieee.org/document/11083607.
