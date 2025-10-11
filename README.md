@@ -99,6 +99,6 @@ R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to
         doi={10.1109/JETCAS.2025.3590065}}
 
 ## Annoucements
-1. **[2025-10]** *Cool-3D* received the **Best Poster Award** recognition at the **IEEE Chiplet Workshop**!
+1. **[2025-10]** *Cool-3D* received the **Best Poster Award** recognition at the **1st IEEE Chiplet Workshop** in Wuhan, China!
 2. **[2025-09]** *Cool-3D* is invited to present at the inaugural **IEEE Chiplet Workshop** in Wuhan, China.
 3. **[2025-07]** *Cool-3D* has been accepted by IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS). The paper is available at https://ieeexplore.ieee.org/document/11083607.
