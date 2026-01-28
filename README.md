@@ -87,16 +87,16 @@ If you use this code, please cite:
 
 R. Wang, Z. Wang, T. Lin, J. M. Raby, M. R. Stan and X. Guo, "Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems (**JETCAS**), doi: 10.1109/JETCAS.2025.3590065. (https://ieeexplore.ieee.org/document/11083607)
 
-      @ARTICLE{11083607,
-        author={Wang, Runxi and Wang, Ziheng and Lin, Ting and Raby, Jacob M. and Stan, Mircea R. and Guo, Xinfei},
-        journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems},
-        title={Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs},
-        year={2025},
-        volume={},
-        number={},
-        pages={1-1},
-        keywords={Cooling;Stacking;Space exploration;Microfluidics;Through-silicon vias;Three-dimensional displays;Space cooling;Predictive models;Heat transfer;Computer architecture;3DIC;Design Space Exploration (DSE);Pre-RTL Design;Thermal Simulation;Microfluidic Cooling},
-        doi={10.1109/JETCAS.2025.3590065}}
+    @ARTICLE{11083607,
+      author={Wang, Runxi and Wang, Ziheng and Lin, Ting and Michael Raby, Jacob and Stan, Mircea R. and Guo, Xinfei},
+      journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems}, 
+      title={Cool-3D: An End-to-End Thermal-Aware Framework for Early-Phase Design Space Exploration of Microfluidic-Cooled 3DICs}, 
+      year={2025},
+      volume={15},
+      number={4},
+      pages={659-673},
+      keywords={Cooling;Stacking;Space exploration;Microfluidics;Through-silicon vias;Three-dimensional displays;Space cooling;Predictive models;Heat transfer;Computer architecture;3DIC;design space exploration (DSE);pre-RTL design;thermal simulation;microfluidic cooling},
+      doi={10.1109/JETCAS.2025.3590065}}
 
 ## Annoucements
 - **[2025-10]** *Cool-3D* received the **Best Poster Award** recognition at the **1st IEEE Chiplet Workshop** in Wuhan, China!
